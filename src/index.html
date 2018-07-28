@@ -45,5 +45,21 @@
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
 
+  <!-- Firebase Configuration -->
+  
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAMd-33w_0fwU5hmHQvx7Cw4ruo5zYFmwg",
+      authDomain: "ionic-project-25371.firebaseapp.com",
+      databaseURL: "https://ionic-project-25371.firebaseio.com",
+      projectId: "ionic-project-25371",
+      storageBucket: "ionic-project-25371.appspot.com",
+      messagingSenderId: "955860284674"
+    };
+    firebase.initializeApp(config);
+  </script>
+
 </body>
 </html>
